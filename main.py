@@ -1,5 +1,5 @@
 from tkinter import *
-
+from descomponer_Lu import descomponerLu
 root = Tk()
 WIDTH_TEXT = 5
 class Contenerdor:
@@ -41,7 +41,7 @@ class Contenerdor:
         self.input8 = Entry(self.frame_matriz, width=WIDTH_TEXT)
         self.input9 = Entry(self.frame_matriz, width=WIDTH_TEXT)
 
-        self.btn_calcular = Button(self.frame_funcion1,text='calcular', command=lambda: print('deberia calcular'))
+        self.btn_calcular = Button(self.frame_funcion1,text='calcular', command=lambda: funtion1([4,2,1,6,7,8,5]))
 
         self.input1.grid(row=0, column=0)
         self.input2.grid(row=0, column=1)
